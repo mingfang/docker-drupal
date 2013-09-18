@@ -24,6 +24,11 @@ vagrant ssh
 sudo -i
 ```
 
+Install Git inside VM
+```bash
+apt-get install git -y
+```
+
 Get My Dockerfile
 ```bash
 git clone https://github.com/mingfang/docker-drupal.git
