@@ -41,4 +41,5 @@ docker run -p 49800:80 -p 49801:6081 drupal
 ```
 
 Point your browser to http://localhost:49801
+Admin login is admin/admin
 
