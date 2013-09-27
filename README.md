@@ -9,7 +9,6 @@ Vagrant, Git
 Install Docker
 ```bash
 git clone https://github.com/dotcloud/docker.git
-cd docker
 ```
 
 Enable Port Forwarding
@@ -19,6 +18,7 @@ export FORWARD_DOCKER_PORTS=1
 
 Start VM
 ```bash
+cd docker
 vagrant up
 vagrant ssh
 sudo -i
